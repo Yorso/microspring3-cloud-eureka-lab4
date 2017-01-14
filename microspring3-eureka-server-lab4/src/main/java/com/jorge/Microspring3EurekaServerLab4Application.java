@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /*
- * Try: http://localhost:8010 => It displays Eureka Server Info screen
+ * Try: http://localhost:8010 => It displays Eureka Server running
  */
 @SpringBootApplication
 @EnableEurekaServer

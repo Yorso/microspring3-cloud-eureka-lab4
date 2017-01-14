@@ -3,7 +3,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
       
-words: I,You,He,She,It
+words: a,the
  
 server:
   # (this will cause a random, unused port to be assigned if none is specified)

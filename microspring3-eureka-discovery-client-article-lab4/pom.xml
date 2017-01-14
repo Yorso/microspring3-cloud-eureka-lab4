@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
   
 	<groupId>com.jorge</groupId>
-	<artifactId>microspring3-eureka-discovery-client-subject-lab4</artifactId>
+	<artifactId>microspring3-eureka-discovery-client-article-lab4</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>microspring3-eureka-discovery-client-subject-lab4</name>
-	<description>Spring Cloud Eureka Discovery Client - Subject</description>
+	<name>microspring3-eureka-discovery-client-article-lab4</name>
+	<description>Spring Cloud Eureka Discovery Client - Article</description>
 
 	<parent>
 		<groupId>org.springframework.cloud</groupId>

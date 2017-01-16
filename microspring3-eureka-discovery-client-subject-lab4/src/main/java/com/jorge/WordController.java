@@ -11,7 +11,7 @@ public class WordController {
 	@Value("${words}")
 	String words;
 
-	@RequestMapping("/")
+	@RequestMapping("/getSubject")
 	public @ResponseBody String getWord() {
 		String[] wordArray = words.split(",");
 		int i = (int) Math.round(Math.random() * (wordArray.length - 1));

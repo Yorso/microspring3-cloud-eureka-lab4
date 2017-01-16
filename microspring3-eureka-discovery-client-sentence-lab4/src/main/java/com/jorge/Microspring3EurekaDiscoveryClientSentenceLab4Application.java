@@ -9,7 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class Microspring3EurekaDiscoveryClientSentenceLab4Application {
+public class Microspring3EurekaDiscoveryClientSentenceLab4Application{
 
 	public static void main(String[] args) {
 		SpringApplication.run(Microspring3EurekaDiscoveryClientSentenceLab4Application.class, args);

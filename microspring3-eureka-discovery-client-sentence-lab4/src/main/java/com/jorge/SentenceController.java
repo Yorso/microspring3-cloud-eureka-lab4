@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
  */
 
 @RestController
-public class SentenceController {
+public class SentenceController{
 
 	@Autowired 
 	private DiscoveryClient client;

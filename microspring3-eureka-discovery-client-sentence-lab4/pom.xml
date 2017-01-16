@@ -10,7 +10,7 @@
 
 	<name>microspring3-eureka-discovery-client-sentence-lab4</name>
 	<description>Spring Cloud Eureka Discovery Client - Sentence</description>
- 
+  
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-parent</artifactId>

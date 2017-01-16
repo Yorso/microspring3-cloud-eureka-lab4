@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+/*
+ * Try: http://localhost:8020/sentence and refresh to view the changes
+ */
+
 @RestController
 public class SentenceController {
 
@@ -20,11 +24,13 @@ public class SentenceController {
 	@RequestMapping("/sentence") 
 	public @ResponseBody String getSentence() {
 		return 
-			getWord("microspring3-eureka-discovery-client-subject-lab4") + " "
-			+ getWord("microspring3-eureka-discovery-client-verb-lab4") + " "
-			+ getWord("microspring3-eureka-discovery-client-article-lab4") + " "
-			+ getWord("microspring3-eureka-discovery-client-adjective-lab4") + " "
-			+ getWord("microspring3-eureka-discovery-client-noun-lab4") + ".";
+			
+			getWord("MICROSPRING3-EUREKA-DISCOVERY-CLIENT-SUBJECT-LAB4") + " "
+			+ getWord("MICROSPRING3-EUREKA-DISCOVERY-CLIENT-VERB-LAB4") + " "
+			+ getWord("MICROSPRING3-EUREKA-DISCOVERY-CLIENT-ARTICLE-LAB4") + " "
+			+ getWord("MICROSPRING3-EUREKA-DISCOVERY-CLIENT-ADJECTIVE-LAB4") + " "
+			+ getWord("MICROSPRING3-EUREKA-DISCOVERY-CLIENT-NOUN-LAB4") + "."
+			;
 	}
 
 	public String getWord(String service) {

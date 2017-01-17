@@ -1,0 +1,3 @@
+#Only one server
+server:
+  port: 8010

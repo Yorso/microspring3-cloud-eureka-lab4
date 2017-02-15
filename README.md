@@ -1,8 +1,6 @@
 ##Lab 4 - Create a Spring Cloud Eureka Server and Client 
 We will create several client applications that will work together to compose a sentence. The sentence will contain a subject, verb, article, adjective and noun such as “I saw a leaky boat” or “You have the reasonable book”. 5 services will randomly generate the word components, and a 6th service will assemble them into a sentence.
 
-##Lab 4 - Create a Spring Cloud Eureka Server and Client
-
 **Part 1, create server**
 
 1. Create a new Spring Boot application.  Name the project "lab-4-eureka-server”, and use this value for the Artifact.  Use JAR packaging and the latest versions of Java.  Use a version of Boot < 1.3.x.  No need to select any dependencies.

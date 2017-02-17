@@ -1,6 +1,25 @@
 ##Lab 4 - Create a Spring Cloud Eureka Server and Client 
 We will create several client applications that will work together to compose a sentence. The sentence will contain a subject, verb, article, adjective and noun such as “I saw a leaky boat” or “You have the reasonable book”. 5 services will randomly generate the word components, and a 6th service will assemble them into a sentence.
 
+Several servers
+primary, secondary, and tertiary illustrate running 3 intercommunicating instances.  This example has them running
+side-by-side on localhost -- which is unrealistic in production -- but does illustrate how multiple instances collaborate.
+Run by opening 3 separate command prompts:
+```
+java -jar -Dspring.profiles.active=primary lab-4-eureka-server-solution-1.jar
+java -jar -Dspring.profiles.active=secondary lab-4-eureka-server-solution-1.jar
+java -jar -Dspring.profiles.active=tertiary lab-4-eureka-server-solution-1.jar
+```
+
+Add in /etc/hosts:
+```
+START section for Microservices with Spring Course
+  127.0.0.1       eureka-primary
+  127.0.0.1       eureka-secondary
+  127.0.0.1       eureka-tertiary
+END section for Microservices with Spring Course
+```
+
 **Part 1, create server**
 
 1. Create a new Spring Boot application.  Name the project "lab-4-eureka-server”, and use this value for the Artifact.  Use JAR packaging and the latest versions of Java.  Use a version of Boot < 1.3.x.  No need to select any dependencies.

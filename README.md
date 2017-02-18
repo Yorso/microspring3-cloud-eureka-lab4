@@ -20,6 +20,8 @@ START section for Microservices with Spring Course
 END section for Microservices with Spring Course
 ```
 
+If you run server as always, you are running a default server (hhtp://localhost:8010/eureka)
+
 **Part 1, create server**
 
 1. Create a new Spring Boot application.  Name the project "lab-4-eureka-server”, and use this value for the Artifact.  Use JAR packaging and the latest versions of Java.  Use a version of Boot < 1.3.x.  No need to select any dependencies.

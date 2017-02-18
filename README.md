@@ -11,6 +11,8 @@ java -jar -Dspring.profiles.active=secondary lab-4-eureka-server-solution-1.jar
 java -jar -Dspring.profiles.active=tertiary lab-4-eureka-server-solution-1.jar
 ```
 
+If you run server as always, you are running a default server (hhtp://localhost:8010/eureka)
+
 Add in /etc/hosts:
 ```
 START section for Microservices with Spring Course
@@ -19,8 +21,6 @@ START section for Microservices with Spring Course
   127.0.0.1       eureka-tertiary
 END section for Microservices with Spring Course
 ```
-
-If you run server as always, you are running a default server (hhtp://localhost:8010/eureka)
 
 **Part 1, create server**
 

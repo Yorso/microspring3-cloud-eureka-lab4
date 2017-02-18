@@ -4,7 +4,7 @@ eureka:
       #Only one server    
       #defaultZone: http://localhost:8010/eureka/
       #Several servers
-      defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
+      defaultZone: http://localhost:8010/eureka/,http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-tertiary:8013/eureka/
       
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
